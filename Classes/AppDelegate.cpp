@@ -79,8 +79,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     ResourceManager::getInstance()->loadSpriteFrames();
 
-    auto startScene = GJFIGHT::createScene();
-    //auto startScene = NKFIGHT::createScene();
+    //auto startScene = GJFIGHT::createScene();
+    auto startScene = NKFIGHT::createScene();
     //auto startScene = BHFIGHT::createScene();
     //auto startScene = StartMenu::createScene();
     //auto startScene = GameOverScene::createScene();

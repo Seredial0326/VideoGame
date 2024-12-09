@@ -587,6 +587,9 @@ bool NKFIGHT::init()
     setupTimer();
     setupHealthBars();
 
+    totalTime = 180;
+    playerHealth = 100;
+
     // Recuperar fatiga con el tiempo
     this->schedule([this](float delta) {
         recoverFatigue(delta);
@@ -1687,6 +1690,9 @@ bool BHFIGHT::init()
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
+    totalTime = 180;
+    playerHealth = 100;
+    
     setupBackground();
     setupTimer();
     setupHealthBars();
@@ -2699,8 +2705,11 @@ bool GJFIGHT::init()
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
+    totalTime = 180;
+    playerHealth = 100;
+
     setupBackground();
-    //setupTimer();
+    setupTimer();
     setupHealthBars();
 
     // Recuperar fatiga con el tiempo

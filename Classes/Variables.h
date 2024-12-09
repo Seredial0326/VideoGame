@@ -3,7 +3,7 @@
 
 extern int playerHealth;
 extern int rivalHealth;
-extern int playerHealth = 100;
+extern int playerHealth = 10;
 extern int rivalHealth = 100;
 extern int MAX_HEALTH = 100;
 extern int playerFatigue = 100;
