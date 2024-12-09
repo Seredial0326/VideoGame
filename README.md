@@ -5,7 +5,7 @@ This game is made in C++, using cocos2d-x game engine.
 
 In the game are 3 diferents fights with diferents characters each one with a diferent type of fight style.
 
-You can download the game in the next link. To run the game, extraxt the zip file and run the EpicGame.exe file, and do not delete any of the files attached, since those are required by the game to work.
+You can download the game in the next link https://drive.google.com/drive/folders/1pm_VsHm6zHWvQRcn_Qtb_x68GjdhBJyJ?usp=drive_link. To run the game, extraxt the zip file and run the EpicGame.exe file, and do not delete any of the files attached, since those are required by the game to work.
 
 Controls
 Q, E - Left and Right Jab
